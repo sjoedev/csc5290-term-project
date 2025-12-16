@@ -1,0 +1,86 @@
+# =========================
+# Python bytecode & caches
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+.uv/
+
+# =========================
+# Packaging / build output
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# uv
+# =========================
+# uv.lock is usually COMMITTED (like poetry.lock)
+# Uncomment the next line only if you explicitly do not want it tracked
+# uv.lock
+
+# uv cache (can be large, always local)
+.uv-cache/
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Type checking
+# =========================
+.mypy_cache/
+.pyright/
+.pytype/
+
+# =========================
+# Linting / formatting
+# =========================
+.ruff_cache/
+
+# =========================
+# IDEs & editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+*.pid
+
+# =========================
+# OS-specific (Linux)
+# =========================
+*~
+.Trash-*
+
+# =========================
+# Data
+# =========================
+data/
